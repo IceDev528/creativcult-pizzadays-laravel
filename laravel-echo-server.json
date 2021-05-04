@@ -1,0 +1,25 @@
+{
+	"authHost": "http://pizzadays.dev/",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "a9bba2d02e25283d",
+			"key": "e86db648c93caae46116f5782b427dbe"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": "pizzadays.dev",
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}

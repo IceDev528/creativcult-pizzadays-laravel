@@ -1,0 +1,2 @@
+laravel-echo-server start
+redis-server --port 6379
